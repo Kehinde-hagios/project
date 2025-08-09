@@ -4,8 +4,8 @@
 
 {% for post in posts %}
 <article class="media content-section">
-  <a href="{{ post.author.profile.image.url }}" target="_blank" class="rounded-circle article-img">
-    <img src="{{ post.author.profile.image.url }}" alt="Post Image" style="max-width: 200px;">
+  <a href="{{ post.author.profile.image.url }}" target="_blank">
+    <img class="rounded-circle article-img" src="{{ post.author.profile.image.url }}" alt="Author Image" width="100" height="100">
   </a>
   <div class="media-body">
     <div class="article-metadata">
